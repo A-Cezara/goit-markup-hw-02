@@ -118,3 +118,8 @@ body {
   line-height: 150%;
   letter-spacing: 0.64px;
 }
+
+.footer {
+  background: var(--navy-blue-color);
+  color: var(--CLOUD);
+}

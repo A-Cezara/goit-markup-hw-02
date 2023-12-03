@@ -21,9 +21,11 @@ body {
 
 .link {
   text-decoration: none;
+  list-style: none;
 }
 .default {
   list-style: none;
+  text-decoration: none;
 }
 
 .nav-items {

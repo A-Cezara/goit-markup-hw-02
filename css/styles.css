@@ -19,6 +19,13 @@ body {
   background: var(--white-color);
 }
 
+.link {
+  text-decoration: none;
+}
+.default {
+  list-style: none;
+}
+
 .nav-items {
   color: var(--navy-blue-color);
   font-weight: 500;
@@ -28,42 +35,45 @@ body {
   font-style: normal;
 }
 
-.header-logo {
-  color: var(--navy-blue-color);
-  font-family: var(--logo-font-family);
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 116.667%;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-.footer-logo {
-  color: var(--cloud-color);
-  font-family: var(--logo-font-family);
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 116.667%;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-.logo-web {
+.logo {
   color: var(--iris-color);
+  font-family: var(--logo-font-family);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17%;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-studio-footer {
+  color: var(--cloud-color);
+}
+.logo-studio-header {
+  color: var(--navy-blue-color);
 }
 
 .hero-section {
-  background-color: var(--navy-blue-color);
+  background: var(--navy-blue-color);
   color: var(--white-color);
   text-align: center;
 }
+.hero-section-header {
+  font-size: 56px;
+  line-height: 107.143%;
+  letter-spacing: 1.12px;
+}
 .order-service-bttn {
-  border-radius: 4px;
   background: var(--iris-color);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--white-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.64px;
+  cursor: pointer;
+}
+.order-service-bttn:hover,
+.order-service-bttn:focus {
+  background: var(--ocean-color);
 }
 
 .section-title {
@@ -86,16 +96,11 @@ body {
   background: var(--cloud-color);
 }
 .our-team-cards {
-  border-radius: 0px 0px 4px 4px;
   background: var(--white-color);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   text-align: center;
 }
 
 .filter-button {
-  border-radius: 4px;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--CLOUD, #f4f4fd);
   color: var(--iris-color);
@@ -105,13 +110,11 @@ body {
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
 .filter-button:hover,
-:active {
-  border-radius: 4px;
+.filter-button:focus {
   background: var(--ocean-color);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   color: var(--white-color);
   font-size: 16px;
   font-weight: 500;
@@ -121,5 +124,5 @@ body {
 
 .footer {
   background: var(--navy-blue-color);
-  color: var(--CLOUD);
+  color: var(--cloud-color);
 }

@@ -29,10 +29,22 @@ body {
 .nav-items {
   color: var(--navy-blue-color);
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.nav-items:hover,
+.nav-items:focus {
+  color: var(--ocean-color);
 }
 
 .address {
   font-style: normal;
+  color: var(--slate-color);
+}
+.address:hover,
+.address:focus {
+  color: var(--ocean-color);
 }
 
 .logo {
@@ -40,7 +52,7 @@ body {
   font-family: var(--logo-font-family);
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.17%;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -70,6 +82,7 @@ body {
   line-height: 150%;
   letter-spacing: 0.64px;
   cursor: pointer;
+  font-family: var(--text-font-family);
 }
 .order-service-bttn:hover,
 .order-service-bttn:focus {

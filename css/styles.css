@@ -24,7 +24,7 @@ body {
   text-decoration: none;
 }
 .default {
-  list-style: none;
+  list-style-type: none;
 }
 
 .nav-items {

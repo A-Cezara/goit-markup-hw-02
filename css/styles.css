@@ -133,7 +133,9 @@ body {
   background-color: var(--ocean-color);
   color: var(--white-color);
 }
-
+.project-paragraph {
+  color: var(--slate-color);
+}
 .footer {
   background: var(--navy-blue-color);
   color: var(--cloud-color);
